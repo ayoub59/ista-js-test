@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log in</title>
+  </head>
+  <body>
+    <h1>inscription</h1>
+    <div class="input-container">
+      <form>
+        <!-- name ✔✔✔✔ -->
+        <label for="fname">nom :</label>
+        <input type="text" id="fname" name="fname" />
+
+        <!-- last name ✔✔✔✔ -->
+        <label for="lname">prenom :</label>
+        <input type="text" id="lname" name="lname" /><br />
+        <!-- age ✔✔✔✔ -->
+        <label for="age">age :</label>
+        <input type="number" id="age" name="age" /><br />
+        <!-- sex ✔✔✔✔ -->
+        <label for="lname">sex :</label>
+        <label for="homme">homme</label>
+        <input type="radio" id="homme" name="sex" value="homme" />
+        <label for="femme">fomme</label>
+        <input type="radio" id="femme" name="sex" value="femme" /><br />
+        <!-- nationnalite ✔✔✔✔ -->
+        <label for="nationnalite">nationnalite :</label>
+        <label for="Marocaine">Marocaine</label>
+        <input
+          type="radio"
+          id="Marocaine"
+          name="nationnalite"
+          value="Marocaine"
+        />
+        <label for="Etrangere">Etrangere</label>
+        <input
+          type="radio"
+          id="Etrangere"
+          name="nationnalite"
+          value="Etrangere"
+        /><br />
+        <!-- <p id="nationnaliteOutput" style="display: none"></p> -->
+        <select id="country" style="display: none" name="country">
+          <option value="Afganistan">Afghanistan</option>
+          <option value="Albania">Albania</option>
+          <option value="Algeria">Algeria</option>
+          <option value="American Samoa">American Samoa</option>
+          <option value="Andorra">Andorra</option>
+          ...
+          <!--i could not print all the apther option for contries due to the lack of convenience-->
+
+        <!-- hobies ✔✔✔✔-->
+        <label for="Interets">Interets :</label> <br />
+        <label for="vehicle1">lecture</label>
+        <input
+          type="checkbox"
+          id="lecture"
+          name="lecture"
+          value="lecture"
+          class="checkbox"
+        />
+        <label for="cinema">cinema</label>
+        <input
+          type="checkbox"
+          id="cinema"
+          name="cinema"
+          value="cinema"
+          class="checkbox"
+        />
+        <label for="sports">sports</label>
+        <input
+          type="checkbox"
+          id="sports"
+          name="sports"
+          value="sports"
+          class="checkbox"
+        />
+        <br />
+        <label for="Theatre">Theatre</label>
+        <input
+          type="checkbox"
+          id="Theatre"
+          name="Theatre"
+          value="Theatre"
+          class="checkbox"
+        />
+        <label for="Voyage">Voyage</label>
+        <input
+          type="checkbox"
+          id="Voyage"
+          name="Voyage"
+          value="Voyage"
+          class="checkbox"
+        />
+        <label for="Sciences">Sciences</label>
+        <input
+          type="checkbox"
+          id="Sciences"
+          name="Sciences"
+          value="Sciences"
+          class="checkbox"
+        />
+        <br />
+        <button id="btn">submet</button>
+        <p id="output">.</p>
+      </form>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
